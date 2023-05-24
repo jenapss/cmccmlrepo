@@ -11,4 +11,4 @@ RUN pip install -r requirements.txt
 EXPOSE 8000
 RUN echo "8000 PORT is EXPOSED"
 # Set the command to run when the container starts
-CMD ["python", "app.py"]
+CMD ["python", "app2.py"]
